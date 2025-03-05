@@ -4,21 +4,56 @@ body {
 }
 
 header {
-    display: flex;
     justify-content: space-around;
-    align-items: center;
-    background-color: #1f2937;
     padding: 10px;
 }
 
-.main, header {
+.hero, header{
+    display: flex;
+    align-items: center;
+    background-color: #1f2937;
     font-family: Roboto;
+    gap: 20px;
+}
+
+.hero {
+    justify-content: center;
+    padding: 70px;
+    flex-wrap:wrap ;
+}
+
+.pic img {
+    width:480px;
+    height: 300px;
+}
+
+.main {
+    max-width: 40%;
+}
+
+.main button {
+    background-color:#3882f6;
+    color: #fff;
+    padding: 6px 14px;
+    text-align: center;
+    border-radius: 6px;
 }
 
 .logo {
     font-size: 24px;
     color:#F8FAF9;
     font-weight: 900;
+}
+
+.primary {
+    font-size: 48px;
+    color:#F8FAF9;
+    font-weight: 900;
+}
+
+.secondary {
+    font-size:18px;
+    color: #E5E7EB;
 }
 
 ul {
