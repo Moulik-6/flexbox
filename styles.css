@@ -95,7 +95,7 @@ a {
 }
 
 .anime p{
-    width: 200px;
+    width: 300px;
     margin: 10px 0px 0px;
     padding:4px;
     text-align: center;
@@ -103,8 +103,8 @@ a {
 }
 
 .anime img {
-    width:200px;
-    height:200px;
+    width:330px;
+    height:330px;
     border: 6px solid blue;
     border-radius: 18px;
 }
@@ -153,4 +153,13 @@ a {
     background-color: #3882F6;
     border-radius: 6px;
     color:#F8FAF9;
+}
+
+footer{
+    display: flex;
+    height:60px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
