@@ -98,6 +98,7 @@ a {
     width: 200px;
     margin: 10px 0px 0px;
     padding:4px;
+    text-align: center;
 
 }
 
@@ -106,4 +107,24 @@ a {
     height:200px;
     border: 6px solid blue;
     border-radius: 18px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding:60px 300px;
+    gap:16px;
+}
+
+.to{
+    font-size: 36px;
+    font-family: light italic;
+    color:#1F2937;
+    text-align: center;
+}
+
+.from{
+    align-self: flex-end;
+    font-weight: 900;
 }
